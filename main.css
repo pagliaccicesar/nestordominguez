@@ -117,13 +117,13 @@
     background-color: #212529;
   }
   #mainNav .navbar-toggler {
-    font-size: 12px;
+    font-size: 10px;
     right: 0;
-    padding: 13px;
+    padding: 10px;
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: #fed136;
+    background-color: rgb(37, 3, 254);
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   #mainNav .navbar-brand {
