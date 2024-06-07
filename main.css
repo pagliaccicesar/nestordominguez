@@ -205,35 +205,29 @@
     grid-template-columns: repeat(2, 1fr);
     padding: 14rem;
 }
-
 .home img {
   width: 70%;
   min-width: 300px; /* Ajusta este valor según el tamaño deseado de la imagen */
   margin: 0 auto;
 }
-
 .home div {
-  margin-top: 20px;
+  margin-top: 40px;
 }
-
 /* Media query para dispositivos móviles */
 @media (max-width: 600px) {
   .home {
     grid-template-columns: 1fr;
       padding: 6rem;
   }
-
   .home img {
       width: 100%;
       max-width: 200px; /* Puedes ajustar este valor para dispositivos móviles */
   }
 }
 @media (max-width: 500px) {
-  .home {
-    grid-template-columns: 1fr;
-      padding: 6rem;
+  .home {    
+      padding: 4rem;
   }
-
   .home img {
       width: 80%;
       min-width: 220px; /* Puedes ajustar este valor para dispositivos móviles */
