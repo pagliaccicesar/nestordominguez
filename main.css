@@ -177,7 +177,71 @@
       padding: 12px 0;
     }
   }
-  
+
+  /*************  prueba nuevo header o foto principal  *****************/
+  /*.home {
+    background: var(--primary);
+    box-shadow: var(--shadow);
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 14rem;
+}
+@media (max-width: 700px) {  
+  .home {
+      
+      padding: 20%;
+      
+  }  
+  .home .btn {
+      display: block;
+      text-align: center;
+      margin: auto; 
+  }
+}*/
+.home {
+  display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 14rem;
+}
+
+.home img {
+  width: 70%;
+  min-width: 300px; /* Ajusta este valor según el tamaño deseado de la imagen */
+  margin: 0 auto;
+}
+
+.home div {
+  margin-top: 20px;
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 600px) {
+  .home {
+    grid-template-columns: 1fr;
+      padding: 6rem;
+  }
+
+  .home img {
+      width: 100%;
+      max-width: 200px; /* Puedes ajustar este valor para dispositivos móviles */
+  }
+}
+@media (max-width: 500px) {
+  .home {
+    grid-template-columns: 1fr;
+      padding: 6rem;
+  }
+
+  .home img {
+      width: 80%;
+      min-width: 220px; /* Puedes ajustar este valor para dispositivos móviles */
+  }
+}
+
+
+/***************   continua viejo codigo   *************/  
   header.masthead {
     text-align: center;
     color: white;
@@ -269,7 +333,7 @@
 
 
   /* seccion portfolionuevo  */
-.charla {
+/*.charla {
     width: 100%;
     height: auto;
     display: block;
@@ -416,10 +480,10 @@
       width: 33%;
       float:center;
     }
-  }
+  }*/
   
   
-  /*#portfolio .portfolio-item {
+  #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
   }
@@ -438,7 +502,7 @@
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
     opacity: 0;
-    background: rgba(254, 209, 54, 0.9);
+    background: rgba(3, 249, 232, 0.5);
   }
   #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1;
@@ -541,6 +605,9 @@
   }
   .portfolio-modal .modal-content button {
     cursor: pointer;
+    position: relative;
+    float: right;
+    
   }
   .portfolio-modal .close-modal {
     position: absolute;
@@ -576,7 +643,7 @@
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
     background-color: #212529;
-  }*/
+  }
 
 
 
