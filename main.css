@@ -232,6 +232,9 @@
       width: 80%;
       min-width: 220px; /* Puedes ajustar este valor para dispositivos móviles */
   }
+  .home div {
+    margin-top: 10px;
+  }
 }
 
 
