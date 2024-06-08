@@ -200,7 +200,8 @@
   }
 }*/
 .home {
-  display: grid;
+    background-color:rgba(218,218,218,1) ;
+    display: grid;
     grid-gap: 30px;
     grid-template-columns: repeat(2, 1fr);
     padding: 14rem;
@@ -210,9 +211,11 @@
   min-width: 300px; /* Ajusta este valor según el tamaño deseado de la imagen */
   margin: 0 auto;
 }
+
 .home div {
   margin-top: 40px;
 }
+
 /* Media query para dispositivos móviles */
 @media (max-width: 600px) {
   .home {
@@ -555,7 +558,8 @@
     font-size: 16px;
     font-style: italic;
     margin: 0;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   }
   
   #portfolio * {
@@ -586,11 +590,10 @@
   .portfolio-modal .modal-content p {
     margin-bottom: 30px;
   }
-  .portfolio-modal .modal-content p.item-intro {
-    font-size: 16px;
-    font-style: italic;
-    margin: 20px 0 30px;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  .portfolio-modal .modal-content p.item-intro {    
+    font-size: 16px;    
+    margin: 5px 0 30px;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
@@ -618,28 +621,24 @@
   .portfolio-modal .close-modal:hover {
     opacity: 0.3;
   }
-  .portfolio-modal .close-modal .lr {
-    
+  .portfolio-modal .close-modal .lr {    
     z-index: 1051;
     width: 1px;
-    height: 75px;
-    margin-left: 35px;
-  
+    height: 35px;
+    margin-left: 35px;  
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #212529;
+    background-color: rgb(37, 3, 254);
   }
-  .portfolio-modal .close-modal .lr .rl {
-   
+  .portfolio-modal .close-modal .lr .rl {   
     z-index: 1052;
     width: 1px;
-    height: 75px;
-   
+    height: 35px;   
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-    background-color: #212529;
+    background-color: rgb(37, 3, 254);
   }
 
 
