@@ -806,3 +806,63 @@
     background-color: rgb(37, 3, 254);
   }
   
+
+  /****************   css de sección privacidad    *******************/
+
+  .avisolegal {
+    background-color: rgba(218,218,218,1);
+  }
+
+  article {    
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding: 1.5rem;
+    color: #0714f9;
+  }
+  @media all and (min-width: 900px) {
+    article {
+      max-width: 65%;
+    }
+  }
+  article h2 {
+    margin-left: 1.5rem;
+    font-size: 2rem;
+    margin: 1.5rem 0 0 1.5rem;
+  }
+  article p {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0.5rem 1.75rem;
+    font-weight: 300;
+  }
+  blockquote {
+    background: rgb(37, 3, 254);
+    color: #fff;
+    border-radius: 12px;
+    padding: 25px 0;
+    margin: 40px 0 50px;
+    position: relative;
+  }
+  blockquote p {
+    font-weight: 300;
+  }  
+  blockquote cite::before {
+    content: "";
+    border-right: 20px solid #e91e63;
+    border-top: 20px solid #e91e63;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -15px;
+    left: 5%;
+    transform: translatex(-50%);
+  }
+  @media all and (min-width: 900px) {
+    blockquote cite::before {
+      left: 25%;
+    }
+  }
