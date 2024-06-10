@@ -832,11 +832,10 @@
     margin: 1.5rem 0 0 1.5rem;
   }
   article p {
-    max-width: 90%;
+    max-width: 95%;
     margin: 0 auto;
     padding: 0.5rem 1.75rem;
-    font-weight: 200;
-    /*font-size: smaller;*/
+    font-weight: 300;    
   }
   blockquote {
     background: rgb(37, 3, 254);
@@ -850,8 +849,8 @@
     font-weight: 200;
   }  
   
-  @media all and (min-width: 900px) {
-    blockquote cite::before {
-      left: 25%;
+  @media (max-width: 900px) {
+    article {
+      font-size: 0.9rem;
     }
   }
