@@ -860,17 +860,42 @@
     margin-top: 50px;
   }
 
-  .modal a {
-    /*position: absolute;
-    top:10px;
-    right:30px;
-    background-color: white;
-    padding:7px 10px;
-    font-size: 30px;
-    text-decoration: none;
-    line-height: 1;*/
+  .modal a {    
     color: red;
   }
+
+  .popup__close {
+    position: absolute;
+    right: 0rem;
+    top: 0rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 0.875rem;
+    font-weight: 300;   
+    background-color: #0A0A0A;
+    z-index: 40;
+    color: #fff;
+    line-height: 2.5rem;
+    text-align: center;    
+    text-decoration: none;
+}
+.popup__close:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   /*#IdModal {
     display: none;
