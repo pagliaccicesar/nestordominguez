@@ -200,7 +200,7 @@
   }
 }*/
 .home {
-  background: linear-gradient(white, rgba(3, 249, 232));
+  background: linear-gradient(white, rgba(3, 249, 232, 0.5));
     /*background-color:rgba(218,218,218,1) ;*/
     display: grid;
     grid-gap: 30px;
